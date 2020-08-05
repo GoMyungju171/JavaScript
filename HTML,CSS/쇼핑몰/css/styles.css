@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    min-width: 992px;
+    font-family: "Helvetica";
+  }
+  
+  /* navbar */
+  .navbar img {
+    height: 20px;
+    padding-left: 30px;
+    margin-top: 30px;
+    
+  }
+  .navbar span {
+    font-family: Helvetica;
+    font-size: 13px;
+    font-style: bold;
+    float: right;
+    margin-right: 30px;
+  }
+  .navbar .menu {
+    padding-right: 30px;
+    margin-bottom: 30px;
+    
+  }
+  /* hero header */
+  .header img{
+    width: 100%;
+    margin-bottom: 60px;
+  }
+  
+  .header {
+    overflow: hidden;
+    height: 800px;
+  }
+  /* products */
+  .products h2 {
+    font-size: 24px;
+    font-family: Helvetica;
+    font-style: bold;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  
+  .products img {
+    width: 225px;
+    overflow: hidden;
+    height: 100px;
+  }
+  .products a {
+    text-decoration: none;
+    color: #545454;
+  }
+  
+  .products .c1 {
+    margin-bottom: 80px;
+    width: 100%;
+    float: left;
+    margin-left: 350px;
+  }
+  
+  .products .c2 {
+    margin-bottom: 80px;
+    width: 100%;
+    float: left;
+    margin-left: 350px;
+  }
+  
+  .products .c3 {
+    width: 100%;
+    float: left;
+    margin-bottom: 120px;
+    margin-left: 350px;
+  }
+  
+  .shop {
+    float: left;
+    margin-right: 20px;
+  }
+  
+  /* footer */
+  .footer img {
+    margin-right: 20px;
+    height: 20px;
+  }
+  
+  .footer {
+    margin-bottom: 80px;
+    text-align: center;
+  }

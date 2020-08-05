@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  min-width: 768px;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+/* side navbar */
+
+#side-navbar {
+  background-color: black;
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  color: white;
+}
+
+#side-navbar ul {
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 60px;
+}
+#side-navbar ul li {
+  list-style: none;
+  margin-bottom: 30px;
+  padding-left: 22px;
+}
+
+.logo img {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  width: 200px;
+}
+.logo {
+  text-align: center;
+}
+
+.sns {
+  text-align: center;
+}
+
+.sns img {
+  margin-top: 25px;
+  margin-left: 80px;
+}
+
+.sns .facebook img {
+  width: 22px;
+  float: left;
+  margin-right: 13px;
+}
+
+.sns .twitter img {
+  width: 25px;
+  float: left;
+}
+/* 코드를 입력하세요! */
+
+/* main */
+
+#main {
+  margin-left: 250px;
+}
+
+#main .hero-header {
+  text-align: center;
+  background-image: url("../images/hero_header.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 750px;
+  line-height: 750px;
+}
+
+#main .info {
+  display: inline-block;
+  line-height: normal;
+  vertical-align: middle;
+}
+
+#main h1 {
+  margin: 0;
+  margin-bottom: 40px;
+  color: white;
+  font-size: 38px;
+}
+
+#main a {
+  padding: 10px 40px;
+  border: 2px solid white;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+}
